@@ -1,1 +1,186 @@
-<mxfile host="app.diagrams.net" modified="2021-05-27T00:58:12.409Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" version="14.7.2" etag="I7bWgP8leNlz3MaCQEHr" type="github"><diagram id="hfF_WQzoCm_w4-yku6Qg">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-27T01:29:29.126Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="-n2u_O5OKD2aI_LKwdBi" version="14.7.2" type="github">
+  <diagram id="hfF_WQzoCm_w4-yku6Qg" name="Page-1">
+    <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NETMtG-RBOUpP_I_SCEn-1" value="导入每月发票扫描件及发票明细表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NETMtG-RBOUpP_I_SCEn-2" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="259.41" y="130" as="sourcePoint" />
+            <mxPoint x="259.41" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NETMtG-RBOUpP_I_SCEn-3" value="把每个月30个左右祥云系统发票明细表合并为一张总表，生产发票明细汇总表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NETMtG-RBOUpP_I_SCEn-4" value="识别发票扫描件，读取发票号码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NETMtG-RBOUpP_I_SCEn-6" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="259.4100000000001" y="260" as="sourcePoint" />
+            <mxPoint x="259.4100000000001" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NETMtG-RBOUpP_I_SCEn-7" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="259.4100000000001" y="390" as="sourcePoint" />
+            <mxPoint x="259.4100000000001" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NETMtG-RBOUpP_I_SCEn-8" value="根据发票号码在发票明细汇总表中查询发票编号及合同编号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NETMtG-RBOUpP_I_SCEn-9" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="259.4100000000001" y="520" as="sourcePoint" />
+            <mxPoint x="259.4100000000001" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NETMtG-RBOUpP_I_SCEn-10" value="发票号码对应的合同数据是否完整" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="590" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NETMtG-RBOUpP_I_SCEn-11" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="419.41" y="650" as="sourcePoint" />
+            <mxPoint x="419.41" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NETMtG-RBOUpP_I_SCEn-12" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="635" as="sourcePoint" />
+            <mxPoint x="400" y="635" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NETMtG-RBOUpP_I_SCEn-13" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="625" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NETMtG-RBOUpP_I_SCEn-16" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="109.41000000000008" y="650" as="sourcePoint" />
+            <mxPoint x="109.41000000000008" y="709.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NETMtG-RBOUpP_I_SCEn-17" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="634.9999999999998" as="sourcePoint" />
+            <mxPoint x="190" y="634.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NETMtG-RBOUpP_I_SCEn-18" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="625" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NETMtG-RBOUpP_I_SCEn-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NETMtG-RBOUpP_I_SCEn-23" target="NETMtG-RBOUpP_I_SCEn-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NETMtG-RBOUpP_I_SCEn-23" value="根据合同编号去系统中查询对应的项目" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NETMtG-RBOUpP_I_SCEn-27" value="合同编号是否查询的到项目" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="355" y="840" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NETMtG-RBOUpP_I_SCEn-35" value="&lt;span&gt;在发票明细总表中最后一列填入需要人工处理&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NETMtG-RBOUpP_I_SCEn-38" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="574.4100000000001" y="895" as="sourcePoint" />
+            <mxPoint x="574.4100000000001" y="954.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NETMtG-RBOUpP_I_SCEn-39" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="485" y="880" as="sourcePoint" />
+            <mxPoint x="555" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NETMtG-RBOUpP_I_SCEn-40" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="555" y="870" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NETMtG-RBOUpP_I_SCEn-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NETMtG-RBOUpP_I_SCEn-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="575.0000000000002" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NETMtG-RBOUpP_I_SCEn-42" value="点击编辑窗口，打开上传界面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="515" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NETMtG-RBOUpP_I_SCEn-48" value="将发票扫描件添加到附件当中，提交审核" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="515" y="1100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NETMtG-RBOUpP_I_SCEn-51" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="274.4100000000001" y="895" as="sourcePoint" />
+            <mxPoint x="274.4100000000001" y="954.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NETMtG-RBOUpP_I_SCEn-52" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="285" y="879.9999999999999" as="sourcePoint" />
+            <mxPoint x="355" y="879.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NETMtG-RBOUpP_I_SCEn-53" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="255" y="870" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NETMtG-RBOUpP_I_SCEn-55" value="查询框架合同号" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="960" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NETMtG-RBOUpP_I_SCEn-58" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="429.4100000000001" y="1015" as="sourcePoint" />
+            <mxPoint x="429.4100000000001" y="1074.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NETMtG-RBOUpP_I_SCEn-59" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="1000" as="sourcePoint" />
+            <mxPoint x="410" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NETMtG-RBOUpP_I_SCEn-60" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="990" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NETMtG-RBOUpP_I_SCEn-62" value="点击编辑窗口，打开上传界面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NETMtG-RBOUpP_I_SCEn-63" value="将发票扫描件添加到附件当中，提交审核" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NETMtG-RBOUpP_I_SCEn-64" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="285" y="879.76" as="sourcePoint" />
+            <mxPoint x="355" y="879.76" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NETMtG-RBOUpP_I_SCEn-65" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="129.41000000000008" y="1015" as="sourcePoint" />
+            <mxPoint x="129.41000000000008" y="1074.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NETMtG-RBOUpP_I_SCEn-66" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="990" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NETMtG-RBOUpP_I_SCEn-67" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="999.76" as="sourcePoint" />
+            <mxPoint x="210" y="999.76" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NETMtG-RBOUpP_I_SCEn-68" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="NETMtG-RBOUpP_I_SCEn-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="429.50000000000006" y="1160" as="sourcePoint" />
+            <mxPoint x="429.50000000000006" y="1219.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NETMtG-RBOUpP_I_SCEn-69" value="&lt;span&gt;在发票明细总表中最后一列填入需要人工处理&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
